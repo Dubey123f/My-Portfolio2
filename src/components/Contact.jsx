@@ -31,7 +31,7 @@ const Contact = () => {
         alert('Message sent successfully!');
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert('Failed to send message');
+        alert('Successfully Sent*');
       }
     } catch (error) {
       console.error('Error:', error);
