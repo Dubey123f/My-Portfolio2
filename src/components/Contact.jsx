@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         <form onSubmit={handleSubmit} className='flex flex-col'>
           <input
-            className='bg-[#ccd6f6] p-2 mb-4'
+            className='bg-[#000000] p-2 mb-4'
             type="text"
             placeholder='Name'
             name='name'
@@ -57,7 +57,7 @@ const Contact = () => {
             required
           />
           <input
-            className='bg-[#ccd6f6] p-2 mb-4'
+            className='bg-[#000000] p-2 mb-4'
             type="email"
             placeholder='Email'
             name='email'
@@ -66,7 +66,7 @@ const Contact = () => {
             required
           />
           <textarea
-            className='bg-[#ccd6f6] p-2 mb-4'
+            className='bg-[#000000] p-2 mb-4'
             name="message"
             rows="10"
             placeholder='Message'
