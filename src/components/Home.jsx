@@ -69,7 +69,7 @@
 "use client";
 import React, { useEffect, useRef } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/Ayush.jpeg';
+// import me from '../assets/Ayush.jpeg';
 import { Link } from "react-scroll";
 import Typed from "typed.js";
 
@@ -108,13 +108,13 @@ const Home = () => {
             </span>
           </Link>
         </div>
-        <div className="mb-6 md:mb-0">
+{/*         <div className="mb-6 md:mb-0">
           <img
             src={me}
             alt="Profile"
             className="rounded-full border-4 border-cyan-500 w-40 sm:w-48 md:w-60 lg:w-72 mx-auto md:ml-8"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
